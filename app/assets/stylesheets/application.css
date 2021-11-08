@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+ .blue {
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   border-radius: 10px;
+   padding: 10px;
+ }
+
+ .result {
+   text-align: center;
+   background-color: rgb(5, 5, 5);
+   color: white;
+   border-radius: 10px;
+   padding: 10px;
+   margin: 0, auto;
+ }
+
+ .next {
+   text-align: center;
+   text-decoration: none;
+   background-color: yellowgreen;
+   color: white;
+   border-radius: 10px;
+ }
