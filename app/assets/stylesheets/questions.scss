@@ -2,7 +2,50 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.blue {
-  background-color: blue;
-  color: white;
+$yellow: #ffffe1;
+$black: black;
+$blue: #3279b7;
+$white: white;
+
+.answer {
+  background-color: $yellow;
+  color: $black;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  box-shadow: 2px 2px 2px rgba($color: #000000, $alpha: 0.2);
+}
+
+.question {
+   color: $black;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  box-shadow: 2px 2px 2px rgba($color: #000000, $alpha: 0.2);
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.form {
+  color: $black;
+   box-shadow: 2px 2px 2px rgba($color: #000000, $alpha: 0.2);
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.ask {
+  background-color: $blue;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  color: $white;
+  border-radius: 10px;
+  border: none;
+}
+
+.ask:hover {
+  background-color: #1d476b;
 }
